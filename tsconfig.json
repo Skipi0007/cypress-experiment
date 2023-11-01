@@ -16,6 +16,6 @@
     "incremental": true,
     "suppressImplicitAnyIndexErrors": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "cypress/e2e/auth.cy.js"],
   "exclude": ["node_modules"]
 }
